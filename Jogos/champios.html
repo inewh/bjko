@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lol.css">
+    <title>Detalhes do Campeão</title>
+</head>
+<body class="details-page">
+    <!-- Fundo dinâmico -->
+    <div class="champion-background"></div>
+
+    <!-- Container principal para o conteúdo -->
+    <main id="main-content" class="champion-content">
+        <a href="index.html" class="back-button">← Voltar para a Galeria</a>
+
+        <div class="champion-header">
+            <h1 id="champion-name">Carregando...</h1>
+            <p id="champion-title" class="champion-title-details"></p>
+        </div>
+
+        <div class="story-container">
+            <h3>História</h3>
+            <p id="champion-story">A história completa do campeão será exibida aqui.</p>
+        </div>
+
+        <section class="abilities-section">
+            <h3>Habilidades</h3>
+            <div id="abilities-container">
+                <!-- Habilidades serão geradas aqui pelo JS -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para exibir o vídeo da habilidade -->
+    <div id="ability-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <video id="modal-video" controls loop muted autoplay playsinline></video>
+            <div class="modal-ability-info">
+                <h3 id="modal-ability-name"></h3>
+                <p id="modal-ability-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- O script é carregado no final para interatividade -->
+    <script src="script.js"></script>
+</body>
+</html>

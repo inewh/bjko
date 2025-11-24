@@ -1,0 +1,1034 @@
+[
+  {
+    "nome": "Vi",
+    "titulo": "a Defensora de Piltover",
+    "descricao": "Ex-criminosa das ruas de Zaun, Vi é uma mulher temível que agora usa suas manoplas hextec para manter a ordem em Piltover.",
+    "historia_completa": "Outrora uma criminosa das ruas impiedosas de Zaun, Vi é uma mulher temível, de pavio curto, impulsiva e que respeita muito pouco figuras de autoridade. Tendo crescido praticamente sozinha, Vi desenvolveu um instinto de sobrevivência afiado e um senso de humor ácido. Agora trabalhando com os Defensores de Piltover para manter a paz, ela porta poderosas manoplas hextec capazes de atravessar paredes e suspeitos com a mesma facilidade.",
+    "ano": 2012,
+    "id": "vi",
+    "frase": "Soque primeiro. Faça perguntas enquanto soca.",
+    "funcoes": ["Jungle", "Lutador"],
+    "regiao": "Piltover",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_0.jpg",
+    "relacionamentos": ["Jinx", "Caitlyn", "Ekko", "Jayce"],
+    "viabilidade": { "dificuldade": 4, "força": 7, "utilidade": 6, "dano": 8 },
+    "habilidades": [
+      {
+        "nome": "Blindagem (Passiva)",
+        "descricao": "Vi carrega um escudo ao atingir um inimigo com uma habilidade.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Vi_P.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0254/ability_0254_P1.webm"
+      },
+      {
+        "nome": "Quebra-Cofres (Q)",
+        "descricao": "Vi carrega suas manoplas e dá um soco que a leva para frente, empurrando inimigos.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViQ.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0254/ability_0254_Q1.webm"
+      },
+      {
+        "nome": "Pancada Certeira (W)",
+        "descricao": "Socos de Vi quebram a Armadura do inimigo, causam dano adicional e concedem a ela Velocidade de Ataque.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViW.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0254/ability_0254_W1.webm"
+      },
+      {
+        "nome": "Força Excessiva (E)",
+        "descricao": "O próximo ataque de Vi atravessa o alvo, causando dano aos inimigos que estiverem atrás.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViE.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0254/ability_0254_E1.webm"
+      },
+      {
+        "nome": "Saque e Enterrada (R)",
+        "descricao": "Vi persegue um inimigo, arremessando-o ao ar e batendo-o no chão.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViR.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0254/ability_0254_R1.webm"
+      }],
+    "skins": [
+      { "nome": "Vi Clássica", "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_0.jpg" },
+      { "nome": "Vi Policial", "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_2.jpg" },
+      { "nome": "Vi PsyOps", "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_5.jpg", "video": "https://www.youtube.com/embed/zQ2KPF2okO8?autoplay=1&loop=1&playlist=zQ2KPF2okO8&controls=0&mute=1" },
+      { "nome": "Vi Quebradora de Corações", "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_19.jpg" }
+    ]
+  },
+  {
+    "nome": "Jinx",
+    "titulo": "o Gatilho Desenfreado",
+    "descricao": "Uma criminosa impulsiva e maníaca de Zaun, Jinx vive para detonar as coisas sem se preocupar com as consequências.",
+    "historia_completa": "Uma criminosa impulsiva e maníaca de Zaun, Jinx vive para detonar as coisas sem se preocupar com as consequências. Com um arsenal de brinquedos mortais, ela dispara as explosões mais barulhentas e mais brilhantes para deixar um rastro de caos e pânico por onde passa. Jinx odeia o tédio e alegremente semeia a discórdia por onde quer que vá.",
+    "frase": "Regras foram feitas para serem quebradas... igual prédios! Ou pessoas!",
+    "id": "jinx",
+    "ano": 2013,
+    "funcoes": ["Atirador"],
+    "regiao": "Zaun",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+    "relacionamentos": ["Vi", "Caitlyn", "Ekko"],
+    "viabilidade": { "dificuldade": 6, "força": 9, "utilidade": 2, "dano": 10 },
+    "habilidades": [
+      {
+        "nome": "Anime-se! (Passiva)",
+        "descricao": "Jinx recebe um grande aumento de Velocidade de Movimento e de Ataque sempre que um campeão ou estrutura inimiga que ela tenha atacado recentemente é abatido ou destruído.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Jinx_Passive.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_P1.webm"
+      },
+      {
+        "nome": "Trocando! (Q)",
+        "descricao": "Jinx modifica seus ataques básicos ao trocar entre Fishbones, o lança-mísseis, e Pow-Pow, a metralhadora.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JinxQ.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_Q1.webm"
+      },
+      {
+        "nome": "Zap! (W)",
+        "descricao": "Jinx usa sua pistola de choque, Zap!, para disparar um raio que causa dano e lentidão ao primeiro inimigo atingido.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JinxW.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_W1.webm"
+      },
+      {
+        "nome": "Mordidinha Flamejante! (E)",
+        "descricao": "Jinx lança uma fileira de granadas-armadilha que enraízam campeões inimigos que passarem por cima delas.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JinxE.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_E1.webm"
+      },
+      {
+        "nome": "Super-Mega-Míssil da Morte! (R)",
+        "descricao": "Jinx dispara um supermíssil que cruza o mapa e cujo dano aumenta com a distância percorrida.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JinxR.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_R1.webm"
+      }],
+    "skins": [
+        { "nome": "Jinx Clássica", "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg" },
+        { "nome": "Jinx Elfa Ambiciosa", "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_4.jpg" },
+        { "nome": "Jinx Odisseia", "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_13.jpg" },
+        { "nome": "Jinx Guardiã Estelar", "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_20.jpg" }
+    ]
+  },
+  {
+    "nome": "Caitlyn",
+    "titulo": "a Xerife de Piltover",
+    "descricao": "Conhecida como a melhor pacificadora de Piltover, Caitlyn é a melhor chance da cidade de se livrar de seus elementos criminosos.",
+    "frase": "Tiro na cabeça.",
+    "id": "caitlyn",
+    "historia_completa": "Conhecida como sua melhor pacificadora, Caitlyn também é a melhor chance de Piltover de livrar a cidade de seus elementos criminosos elusivos. Ela geralmente faz dupla com Vi, agindo como um contraponto de calmaria para a natureza mais impetuosa de sua parceira. Mesmo carregando um rifle hextec único, a arma mais poderosa de Caitlyn é seu intelecto superior, que permite que ela prepare armadilhas elaboradas para qualquer fora da lei.",
+    "ano": 2011,
+    "funcoes": ["Atirador"],
+    "regiao": "Piltover",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
+    "relacionamentos": ["Vi", "Jinx"],
+    "viabilidade": { "dificuldade": 5, "força": 8, "utilidade": 4, "dano": 9 },
+    "habilidades": [
+      {
+        "nome": "Bem na Mira (Passiva)",
+        "descricao": "A cada poucos ataques básicos, ou em qualquer alvo que ela tenha prendido, Caitlyn dispara um tiro na cabeça que causa dano bônus.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Caitlyn_Headshot.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_P1.webm"
+      },
+      {
+        "nome": "Pacificadora de Piltover (Q)",
+        "descricao": "Caitlyn dispara um tiro perfurante que causa Dano Físico.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/CaitlynQ.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_Q1.webm"
+      },
+      {
+        "nome": "Armadilha Mecânica Yordle (W)",
+        "descricao": "Caitlyn prepara uma armadilha que revela e imobiliza um campeão inimigo, concedendo a Caitlyn um tiro na cabeça fortalecido.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/CaitlynW.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_W1.webm"
+      },
+      {
+        "nome": "Rede Calibre 90 (E)",
+        "descricao": "Caitlyn dispara uma rede pesada para diminuir a velocidade de seu alvo. O recuo a empurra para trás.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/CaitlynE.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_E1.webm"
+      },
+      {
+        "nome": "Ás na Manga (R)",
+        "descricao": "Caitlyn dedica um tempo para alinhar o tiro perfeito, causando dano massivo a um único alvo a uma distância enorme.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/CaitlynR.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_R1.webm"
+      }
+    ]
+  },
+  {
+    "nome": "Jayce",
+    "titulo": "o Defensor do Amanhã",
+    "descricao": "Jayce é um inventor brilhante que dedicou sua vida à defesa de Piltover e sua incansável busca pelo progresso.",
+    "frase": "Pelo progresso!",
+    "id": "jayce",
+    "historia_completa": "Jayce é um inventor brilhante que dedicou sua vida à defesa de Piltover e sua incansável busca pelo progresso. Com seu martelo hextec transformador em mãos, Jayce usa sua força, coragem e considerável inteligência para proteger sua cidade natal. Embora seja aclamado como um herói, ele não se dá muito bem com a atenção que o heroísmo traz. Ainda assim, o coração de Jayce está no lugar certo, e até mesmo aqueles que invejam seu talento natural são gratos por sua proteção.",
+    "ano": 2012,
+    "funcoes": ["Top", "Mid"],
+    "regiao": "Piltover",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jayce_0.jpg",
+    "relacionamentos": ["Viktor", "Heimerdinger", "Vi"],
+    "viabilidade": { "dificuldade": 8, "força": 7, "utilidade": 5, "dano": 8 },
+    "habilidades": [
+      {
+        "nome": "Capacitor Hextec (Passiva)",
+        "descricao": "Jayce recebe um breve aumento de Velocidade de Movimento e ignora colisão com unidades sempre que troca de postura.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Jayce_Passive.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0126/ability_0126_P1.webm"
+      },
+      {
+        "nome": "Aos Céus! / Disparo Chocante (Q)",
+        "descricao": "Martelo: Salta em um inimigo, causando dano e lentidão. Canhão: Dispara um orbe de eletricidade que explode ao atingir um inimigo.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JayceToTheSkies.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0126/ability_0126_Q1.webm"
+      },
+      {
+        "nome": "Campo Elétrico / Hipercarga (W)",
+        "descricao": "Martelo: Cria uma aura elétrica que causa dano a inimigos próximos. Canhão: Recebe um pico de energia, maximizando sua Velocidade de Ataque por alguns ataques.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JayceStaticField.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0126/ability_0126_W1.webm"
+      },
+      {
+        "nome": "Golpe Trovejante / Portão Acelerador (E)",
+        "descricao": "Martelo: Causa Dano Mágico a um inimigo e o empurra para trás. Canhão: Cria um portão que aumenta a Velocidade de Movimento de aliados e fortalece o Disparo Chocante.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JayceThunderingBlow.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0126/ability_0126_E1.webm"
+      },
+      {
+        "nome": "Transformar (R)",
+        "descricao": "Transforma o Martelo de Mercúrio no Canhão de Mercúrio, recebendo novas habilidades e ataques à distância.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JayceStanceHtG.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0126/ability_0126_R1.webm"
+      }
+    ]
+  },
+  {
+    "nome": "Viktor",
+    "titulo": "o Arauto das Máquinas",
+    "descricao": "O arauto de uma nova era tecnológica, Viktor dedicou sua vida ao avanço da humanidade.",
+    "frase": "Junte-se à gloriosa evolução.",
+    "id": "viktor",
+    "historia_completa": "O arauto de uma nova era tecnológica, Viktor dedicou sua vida ao avanço da humanidade. Um idealista que busca elevar o povo de Zaun a um novo nível de entendimento, ele acredita que somente ao abraçar a gloriosa evolução da tecnologia a humanidade poderá atingir seu pleno potencial. Com um corpo aprimorado por aço e ciência, Viktor é zeloso em sua busca por este futuro brilhante.",
+    "ano": 2011,
+    "funcoes": ["Mid", "Mago"],
+    "regiao": "Zaun",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_0.jpg",
+    "relacionamentos": ["Jayce", "Heimerdinger"],
+    "viabilidade": { "dificuldade": 9, "força": 8, "utilidade": 7, "dano": 9 },
+    "habilidades": [
+      {
+        "nome": "Evolução Gloriosa (Passiva)",
+        "descricao": "Viktor pode aprimorar suas habilidades básicas ao abater inimigos.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Viktor_Passive.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0112/ability_0112_P1.webm"
+      },
+      {
+        "nome": "Poder do Sifão (Q)",
+        "descricao": "Viktor golpeia uma unidade inimiga, causando dano, recebendo um escudo e fortalecendo seu próximo ataque básico.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViktorPowerTransfer.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0112/ability_0112_Q1.webm"
+      },
+      {
+        "nome": "Campo Gravítico (W)",
+        "descricao": "Viktor cria um campo de aprisionamento gravitacional que causa lentidão a inimigos. Inimigos que permanecerem na área por muito tempo são atordoados.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViktorGravitonField.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0112/ability_0112_W1.webm"
+      },
+      {
+        "nome": "Raio da Morte (E)",
+        "descricao": "Viktor usa seu braço robótico para disparar um raio de energia que atravessa o campo de batalha, causando dano a todos os inimigos em seu caminho.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViktorDeathRay.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0112/ability_0112_E1.webm"
+      },
+      {
+        "nome": "Tempestade do Caos (R)",
+        "descricao": "Viktor conjura uma singularidade no campo de batalha que causa dano e interrompe a canalização de inimigos.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViktorChaosStorm.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0112/ability_0112_R1.webm"
+      }
+    ]
+  },
+  {
+    "nome": "Ekko",
+    "titulo": "o Rapaz que Estilhaçou o Tempo",
+    "descricao": "Um prodígio das ruas de Zaun, Ekko manipula o tempo para reverter qualquer situação a seu favor.",
+    "frase": "Não é quanto tempo você tem, é como você o usa.",
+    "id": "ekko",
+    "historia_completa": "Um prodígio das ruas impiedosas de Zaun, Ekko manipula o tempo para reverter qualquer situação a seu favor. Usando sua própria invenção, o Revo-Z, ele explora as possíveis ramificações da realidade para criar o momento perfeito. Embora valorize sua liberdade, quando algo ameaça seus amigos, ele faz de tudo para defendê-los. Para um estranho, Ekko parece realizar o impossível com facilidade, repetidas vezes.",
+    "ano": 2015,
+    "funcoes": ["Jungle", "Mid", "Assassino"],
+    "regiao": "Zaun",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
+    "relacionamentos": ["Jinx", "Vi", "Heimerdinger"],
+    "viabilidade": { "dificuldade": 8, "força": 7, "utilidade": 7, "dano": 8 },
+    "habilidades": [
+      {
+        "nome": "Ressonância Revo-Z (Passiva)",
+        "descricao": "O terceiro ataque ou habilidade de dano de Ekko em um mesmo alvo causa Dano Mágico adicional e concede a ele um aumento de Velocidade de Movimento.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Ekko_P.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_P1.webm"
+      },
+      {
+        "nome": "Giratempo (Q)",
+        "descricao": "Ekko arremessa um dispositivo que causa dano ao atravessar inimigos. Ao chegar ao seu destino, ele expande, criando um campo que causa lentidão, e retorna para Ekko, causando dano novamente.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/EkkoQ.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_Q1.webm"
+      },
+      {
+        "nome": "Convergência Paralela (W)",
+        "descricao": "Ekko cria uma anomalia temporal que, após alguns segundos, explode, causando lentidão a inimigos. Se Ekko entrar na anomalia, ele recebe um escudo e atordoa os inimigos.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/EkkoW.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_W1.webm"
+      },
+      {
+        "nome": "Mergulho Fásico (E)",
+        "descricao": "Ekko rola uma curta distância e fortalece seu próximo ataque para se teleportar até seu alvo e causar dano adicional.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/EkkoE.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_E1.webm"
+      },
+      {
+        "nome": "Cronoquebra (R)",
+        "descricao": "Ekko volta no tempo, tornando-se inalvejável e retornando a um ponto mais favorável. Ele se cura e causa dano massivo a inimigos próximos de onde aterrissar.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/EkkoR.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_R1.webm"
+      }
+    ]
+  },
+  {
+    "nome": "Heimerdinger",
+    "titulo": "o Inventor Idolatrado",
+    "descricao": "Um cientista yordle brilhante, mas excêntrico, famoso por suas invenções e sua mente genial.",
+    "frase": "Eureka!",
+    "id": "heimerdinger",
+    "historia_completa": "Um cientista yordle brilhante, mas excêntrico, o Professor Cecil B. Heimerdinger é uma das mentes mais inovadoras e estimadas que Piltover já conheceu. Em sua busca por conhecimento, ele montou e ajustou algumas das máquinas mais milagrosas e letais da cidade. Embora suas teorias muitas vezes pareçam obscuras e esotéricas, Heimerdinger acredita que o conhecimento deve ser compartilhado e se dedica a ensinar quem desejar.",
+    "ano": 2009,
+    "funcoes": ["Mid", "Top", "Suporte"],
+    "regiao": "Piltover",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_0.jpg",
+    "relacionamentos": ["Jayce", "Viktor", "Ekko"],
+    "viabilidade": { "dificuldade": 7, "força": 6, "utilidade": 8, "dano": 7 },
+    "habilidades": [
+      {
+        "nome": "Afinidade Hextec (Passiva)",
+        "descricao": "Heimerdinger recebe Velocidade de Movimento perto de torres aliadas e de suas próprias torretas.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Heimerdinger_Passive.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0074/ability_0074_P1.webm"
+      },
+      {
+        "nome": "Torre Evolutiva H-28G (Q)",
+        "descricao": "Heimerdinger posiciona uma torreta que ataca inimigos próximos. Ele pode ter até 3 torretas ativas.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/HeimerdingerQ.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0074/ability_0074_Q1.webm"
+      },
+      {
+        "nome": "Micro-Mísseis Hextec (W)",
+        "descricao": "Heimerdinger dispara uma salva de mísseis de longo alcance.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/HeimerdingerW.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0074/ability_0074_W1.webm"
+      },
+      {
+        "nome": "Granada de Tempestade de Elétrons CH-2 (E)",
+        "descricao": "Heimerdinger arremessa uma granada que causa dano e atordoa inimigos no centro da explosão, ou causa lentidão aos que estiverem na borda.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/HeimerdingerE.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0074/ability_0074_E1.webm"
+      },
+      {
+        "nome": "MELHORIA!!! (R)",
+        "descricao": "Heimerdinger aprimora sua próxima habilidade, tornando-a muito mais poderosa.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/HeimerdingerR.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0074/ability_0074_R1.webm"
+      }
+    ]
+  },
+  {
+    "nome": "Viego",
+    "titulo": "O Rei Destruído",
+    "descricao": "Outrora governante de um reino há muito perdido, Viego agora é um espectro poderoso que busca incessantemente por sua rainha morta, Isolde.",
+    "frase": "Sem sacrifício, não há amor.",
+    "id": "viego",
+    "historia_completa": "Outrora governante de um reino há muito perdido, Viego morreu há mais de mil anos quando sua tentativa de trazer sua esposa de volta da morte resultou em uma catástrofe mágica conhecida como a Ruína. Transformado em um poderoso espectro morto-vivo, ele é torturado por uma obsessão enlouquecedora por sua rainha morta há séculos. Agora, como o Rei Destruído, Viego controla a Névoa Negra e viaja por Runeterra em busca de qualquer coisa que possa um dia restaurá-la, destruindo tudo em seu caminho.",
+    "ano": 2021,
+    "funcoes": ["Jungle", "Lutador"],
+    "regiao": "Ilhas das Sombras",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg",
+    "relacionamentos": ["Thresh", "Kalista", "Gwen"],
+    "viabilidade": { "dificuldade": 6, "força": 8, "utilidade": 5, "dano": 8 },
+    "habilidades": [
+      {
+        "nome": "Domínio Monárquico (Passiva)",
+        "descricao": "Viego pode possuir temporariamente campeões inimigos que ele ajuda a abater, curando-se e usando as habilidades deles.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Viego_Passive.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_P1.webm"
+      },
+      {
+        "nome": "Lâmina do Rei Destruído (Q)",
+        "descricao": "Passivo: os ataques de Viego causam dano com base na Vida atual do alvo. Ativo: Viego apunhala com sua lâmina.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViegoQ.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_Q1.webm"
+      },
+      {
+        "nome": "Posse Espectral (W)",
+        "descricao": "Viego carrega e avança, lançando uma névoa que atordoa o primeiro inimigo atingido.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViegoW.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_W1.webm"
+      },
+      {
+        "nome": "Caminho Assombrado (E)",
+        "descricao": "Viego lança uma onda de Névoa Negra. Dentro da névoa, Viego se torna camuflado e ganha Velocidade de Ataque e de Movimento.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViegoE.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_E1.webm"
+      },
+      {
+        "nome": "Destruidor de Corações (R)",
+        "descricao": "Viego se teleporta e ataca o campeão inimigo com a menor porcentagem de vida, causando dano com base na vida perdida.",
+        "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ViegoR.png",
+        "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_R1.webm"
+      }
+    ]
+  },
+    {
+    "nome": "Yasuo",
+    "titulo": "o Imperdoável",
+    "descricao": "Um ioniano extremamente determinado, porém impetuoso, Yasuo é um espadachim ágil que domina o vento para cortar seus inimigos.",
+    "frase": "A morte é como o vento: está sempre ao meu lado.",
+    "id": "yasuo",
+    "historia_completa": "Um ioniano extremamente determinado, porém impetuoso, Yasuo é um espadachim ágil que domina o vento para cortar seus inimigos. Este jovem orgulhoso foi acusado injustamente de assassinar seu mestre e, incapaz de provar sua inocência, foi forçado a matar o próprio irmão para se defender. Mesmo depois que o verdadeiro assassino de seu mestre foi revelado, Yasuo ainda não conseguiu se perdoar por tudo o que fez e agora vaga por sua terra natal com apenas o vento para guiar sua lâmina.",
+    "ano": 2013,
+    "funcoes": ["Mid", "Lutador"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg",
+    "relacionamentos": ["Yone", "Taliyah", "Riven"],
+    "viabilidade": { "dificuldade": 10, "força": 8, "utilidade": 4, "dano": 9 },
+    "habilidades": [
+      { "nome": "Estilo do Errante (Passiva)", "descricao": "A Chance de Acerto Crítico de Yasuo é dobrada. Além disso, Yasuo gera um escudo enquanto se move. O escudo é ativado quando ele sofre dano de um campeão ou monstro.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Yasuo_P.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0157/ability_0157_P1.webm" },
+      { "nome": "Tempestade de Aço (Q)", "descricao": "Um avanço de curto alcance que causa dano a todos os inimigos em uma linha. Ao contato, concede um acúmulo de Tempestade Crescente por alguns segundos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/YasuoQ1.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0157/ability_0157_Q1.webm" },
+      { "nome": "Parede de Vento (W)", "descricao": "Cria uma parede móvel que bloqueia todos os projéteis inimigos por 4 segundos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/YasuoW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0157/ability_0157_W1.webm" },
+      { "nome": "Espada Ágil (E)", "descricao": "Avança através de um inimigo, causando Dano Mágico. Cada conjuração aumenta o dano do seu próximo avanço, até um limite máximo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/YasuoE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0157/ability_0157_E1.webm" },
+      { "nome": "Último Suspiro (R)", "descricao": "Teleporta-se para um Campeão inimigo no ar, causando Dano Físico e mantendo no ar todos os inimigos que estiverem no ar na área.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/YasuoR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0157/ability_0157_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Ahri",
+    "titulo": "a Raposa de Nove Caudas",
+    "descricao": "Uma vastaya com aparência de raposa, Ahri é uma maga que manipula as emoções de sua presa antes de consumir sua essência vital.",
+    "frase": "Brinquedinhos novos? Ah, eu adoraria!",
+    "id": "ahri",
+    "historia_completa": "Inatamente conectada com o poder latente de Runeterra, Ahri é uma vastaya capaz de transformar magia em orbes de pura energia. Ela gosta de brincar com suas presas, manipulando suas emoções antes de devorar sua essência vital. Apesar de sua natureza predatória, Ahri possui um senso de empatia, pois recebe flashes de memória de cada alma que consome.",
+    "ano": 2011,
+    "funcoes": ["Mid", "Mago"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+    "relacionamentos": ["Yasuo", "Viego"],
+    "viabilidade": { "dificuldade": 5, "força": 7, "utilidade": 8, "dano": 7 },
+    "habilidades": [
+      { "nome": "Furto de Essência (Passiva)", "descricao": "Quando Ahri atinge 9 inimigos com suas habilidades, sua próxima habilidade a cura.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Ahri_P.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_P1.webm" },
+      { "nome": "Orbe da Ilusão (Q)", "descricao": "Ahri envia e puxa de volta seu orbe, causando Dano Mágico na ida e Dano Verdadeiro na volta.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AhriQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_Q1.webm" },
+      { "nome": "Fogo de Raposa (W)", "descricao": "Ahri libera três fogos de raposa que perseguem e atacam inimigos próximos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AhriW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_W1.webm" },
+      { "nome": "Encanto (E)", "descricao": "Ahri manda um beijo que causa dano e encanta um inimigo, fazendo com que ele ande inofensivamente em sua direção.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AhriE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_E1.webm" },
+      { "nome": "Ímpeto Espiritual (R)", "descricao": "Ahri avança e dispara raios de essência em inimigos próximos. Ímpeto Espiritual pode ser conjurado até 3 vezes antes de entrar em Tempo de Recarga.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AhriR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Lux",
+    "titulo": "a Dama da Luz",
+    "descricao": "Luxanna Stemmaguarda é uma jovem e poderosa maga da luz de Demacia, um reino onde a magia é vista com medo e desconfiança.",
+    "frase": "O segredo é usar bastante luz!",
+    "id": "lux",
+    "historia_completa": "Luxanna Stemmaguarda é de Demacia, um reino insular onde habilidades mágicas são vistas com medo e desconfiança. Capaz de dobrar a luz à sua vontade, ela cresceu temendo ser descoberta e exilada, e foi forçada a manter seu poder em segredo para preservar o status nobre de sua família. No entanto, o otimismo e a resiliência de Lux a levaram a aceitar seus talentos únicos, e agora ela os utiliza em segredo para servir sua terra natal.",
+    "ano": 2010,
+    "funcoes": ["Mid", "Suporte"],
+    "regiao": "Demacia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
+    "relacionamentos": ["Garen", "Sylas", "Jarvan IV"],
+    "viabilidade": { "dificuldade": 4, "força": 7, "utilidade": 7, "dano": 9 },
+    "habilidades": [
+      { "nome": "Iluminação (Passiva)", "descricao": "As habilidades de dano de Lux carregam o alvo com energia por 6 segundos. O próximo ataque de Lux incendeia a energia, causando Dano Mágico adicional.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Lux_Passive.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_P1.webm" },
+      { "nome": "Ligação da Luz (Q)", "descricao": "Lux dispara uma esfera de luz que prende e causa dano em até duas unidades inimigas.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LuxQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_Q1.webm" },
+      { "nome": "Barreira Prismática (W)", "descricao": "Lux lança sua varinha e concede um escudo a si mesma e a todos os aliados que ela tocar.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LuxW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_W1.webm" },
+      { "nome": "Singularidade Lucente (E)", "descricao": "Dispara uma anomalia de luz que causa lentidão a inimigos próximos. Lux pode detoná-la para causar dano aos inimigos na área de efeito.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LuxE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_E1.webm" },
+      { "nome": "Centelha Final (R)", "descricao": "Após acumular energia, Lux dispara um raio de luz que causa dano a todos os inimigos em uma linha. A habilidade também ativa a passiva de Lux e redefine sua duração.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LuxR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Garen",
+    "titulo": "o Poder de Demacia",
+    "descricao": "Um guerreiro nobre e orgulhoso, Garen lidera a Vanguarda Destemida e luta na linha de frente do exército demaciano.",
+    "frase": "Por Demacia!",
+    "id": "garen",
+    "historia_completa": "Um guerreiro nobre e orgulhoso, Garen luta na linha de frente da Vanguarda Destemida. Ele é popular entre seus companheiros e respeitado por seus inimigos - não menos importante por ser um descendente da prestigiada família Stemmaguarda, encarregada de defender os ideais de Demacia. Vestido com uma armadura resistente à magia e empunhando uma poderosa espada, Garen está pronto para enfrentar magos e feiticeiros no campo de batalha, em um verdadeiro turbilhão de aço justo.",
+    "ano": 2010,
+    "funcoes": ["Top", "Lutador"],
+    "regiao": "Demacia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
+    "relacionamentos": ["Lux", "Jarvan IV", "Katarina"],
+    "viabilidade": { "dificuldade": 2, "força": 6, "utilidade": 2, "dano": 7 },
+    "habilidades": [
+      { "nome": "Perseverança (Passiva)", "descricao": "Se Garen não tiver sofrido dano ou sido atingido por habilidades inimigas recentemente, ele regenera um percentual de sua Vida máxima a cada segundo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Garen_P.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0086/ability_0086_P1.webm" },
+      { "nome": "Acerto Decisivo (Q)", "descricao": "Garen recebe um aumento de Velocidade de Movimento, livrando-se de todas as lentidões. Seu próximo ataque atinge um ponto vital do inimigo, causando dano adicional e silenciando-o.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/GarenQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0086/ability_0086_Q1.webm" },
+      { "nome": "Coragem (W)", "descricao": "Garen aumenta passivamente sua Armadura e Resistência Mágica. Ele também pode ativar esta habilidade para receber um escudo e Tenacidade por um curto período.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/GarenW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0086/ability_0086_W1.webm" },
+      { "nome": "Julgamento (E)", "descricao": "Garen gira rapidamente sua espada ao redor de seu corpo, causando Dano Físico a inimigos próximos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/GarenE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0086/ability_0086_E1.webm" },
+      { "nome": "Justiça Demaciana (R)", "descricao": "Garen invoca o poder de Demacia para tentar executar um campeão inimigo, causando dano com base na vida perdida do alvo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/GarenR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0086/ability_0086_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Jhin",
+    "titulo": "o Virtuoso",
+    "descricao": "Jhin é um meticuloso psicopata criminoso que acredita que o assassinato é uma arte.",
+    "frase": "Na carnificina, eu floresço, como uma flor no amanhecer.",
+    "id": "jhin",
+    "historia_completa": "Jhin é um meticuloso psicopata criminoso que acredita que o assassinato é uma arte. Outrora um prisioneiro ioniano, mas libertado por elementos sombrios do conselho regente de Ionia, o assassino em série agora trabalha como o assassino de seu conciliábulo. Usando sua arma como um pincel, Jhin cria obras de arte brutais, horrorizando vítimas e espectadores. Ele obtém um prazer cruel ao fazer sua performance, tornando-se a melhor escolha para enviar a mais forte das mensagens: o terror.",
+    "ano": 2016,
+    "funcoes": ["Atirador"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg",
+    "relacionamentos": ["Shen", "Zed"],
+    "viabilidade": { "dificuldade": 7, "força": 8, "utilidade": 5, "dano": 10 },
+    "habilidades": [
+      { "nome": "Sussurro (Passiva)", "descricao": "A arma de Jhin, Sussurro, é um instrumento preciso projetado para causar dano superior. Ela dispara com uma frequência fixa e carrega apenas quatro projéteis.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Jhin_P.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0202/ability_0202_P1.webm" },
+      { "nome": "Granada Dançante (Q)", "descricao": "Jhin lança um cartucho mágico no chão. Ele pode quicar até quatro vezes em alvos próximos. Cada abate aumenta o dano dos quiques subsequentes.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JhinQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0202/ability_0202_Q1.webm" },
+      { "nome": "Florescer Mortal (W)", "descricao": "Jhin dispara um único tiro de longo alcance com sua bengala. Ele atravessa tropas e monstros, mas para no primeiro campeão atingido.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JhinW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0202/ability_0202_W1.webm" },
+      { "nome": "Audiência Cativa (E)", "descricao": "Jhin posiciona uma armadilha de lótus invisível que floresce ao ser pisada. Ela causa lentidão a inimigos próximos antes de detonar.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JhinE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0202/ability_0202_E1.webm" },
+      { "nome": "Aclamação (R)", "descricao": "Jhin canaliza, transformando Sussurro em um canhão de ombro. Ele é capaz de disparar 4 supertiros de alcance extremo que atravessam tropas e monstros, mas param no primeiro campeão atingido.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/JhinR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0202/ability_0202_R1.webm" }
+    ]
+  }
+,
+  {
+    "nome": "Zed",
+    "titulo": "o Mestre das Sombras",
+    "descricao": "Impiedoso e implacável, Zed é o líder da Ordem das Sombras, com poder para destruir qualquer um que ele julgue uma ameaça à sua nação.",
+    "frase": "A lâmina que não se vê é a mais mortífera.",
+    "id": "zed",
+    "historia_completa": "Totalmente impiedoso e implacável, Zed é o líder da Ordem das Sombras, uma organização que ele criou com a intenção de militarizar as tradições marciais e mágicas de Ionia para expulsar os invasores noxianos. Durante a guerra, ele liberou o segredo das sombras, uma magia espiritual poderosa e perigosa, para derrotar os inimigos. Zed dominou todas essas técnicas proibidas para destruir qualquer coisa que considere uma ameaça à sua nação ou à sua nova ordem.",
+    "ano": 2012,
+    "funcoes": ["Mid", "Assassino"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg",
+    "relacionamentos": ["Shen", "Akali", "Kayn", "Jhin"],
+    "viabilidade": { "dificuldade": 9, "força": 8, "utilidade": 3, "dano": 9 },
+    "habilidades": [
+      { "nome": "Desprezo pelos Fracos (Passiva)", "descricao": "O ataque básico de Zed causa Dano Mágico adicional a inimigos com pouca Vida.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Zed_P.png" },
+      { "nome": "Shuriken Laminado (Q)", "descricao": "Zed e suas sombras arremessam seus shurikens.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ZedQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0238/ability_0238_Q1.webm" },
+      { "nome": "Sombra Viva (W)", "descricao": "A sombra de Zed avança, permanecendo no lugar por um período. Reativar a habilidade faz com que Zed troque de lugar com a sombra.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ZedW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0238/ability_0238_W1.webm" },
+      { "nome": "Corte Sombrio (E)", "descricao": "Zed e suas sombras giram suas lâminas, criando uma explosão de energia que causa dano e lentidão.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ZedE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0238/ability_0238_E1.webm" },
+      { "nome": "Marca Fatal (R)", "descricao": "Zed torna-se inalvejável e avança em um campeão inimigo, marcando-o. Após um período, a marca explode, causando dano com base em todo o dano que Zed causou ao alvo enquanto a marca estava ativa.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ZedR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0238/ability_0238_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Thresh",
+    "titulo": "o Guardião das Correntes",
+    "descricao": "Sádico e astuto, Thresh é um espírito ambicioso e incansável das Ilhas das Sombras que se deleita em torturar mortais e quebrar suas vontades.",
+    "frase": "Que deleite de agonia vamos infligir?",
+    "id": "thresh",
+    "historia_completa": "Sádico e astuto, Thresh é um espírito ambicioso e incansável das Ilhas das Sombras. Outrora o guardião de incontáveis segredos arcanos, ele foi vencido por um poder maior que a vida ou a morte, e agora se sustenta ao torturar e quebrar os outros com uma criatividade lenta e excruciante. Suas vítimas sofrem muito além de seus corpos mortais, pois Thresh aflige suas almas, aprisionando-as em sua lanterna para torturá-las por toda a eternidade.",
+    "ano": 2013,
+    "funcoes": ["Suporte"],
+    "regiao": "Ilhas das Sombras",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
+    "relacionamentos": ["Viego", "Lucian", "Senna", "Kalista"],
+    "viabilidade": { "dificuldade": 8, "força": 7, "utilidade": 10, "dano": 4 },
+    "habilidades": [
+      { "nome": "Condenação (Passiva)", "descricao": "Thresh pode coletar as almas de inimigos que morrem perto dele, concedendo-lhe permanentemente Armadura e Poder de Habilidade.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Thresh_P.png" },
+      { "nome": "Sentença (Q)", "descricao": "Thresh prende um inimigo em suas correntes e o puxa em sua direção.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ThreshQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0412/ability_0412_Q1.webm" },
+      { "nome": "Passagem Sombria (W)", "descricao": "Thresh arremessa sua Lanterna, que pode ser usada por um aliado para se deslocar até a localização de Thresh.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ThreshW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0412/ability_0412_W1.webm" },
+      { "nome": "Esfolar (E)", "descricao": "Os ataques de Thresh acumulam dano. Quando ativada, a habilidade varre sua corrente, empurrando ou puxando os inimigos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ThreshE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0412/ability_0412_E1.webm" },
+      { "nome": "A Caixa (R)", "descricao": "Thresh cria uma prisão de paredes espectrais que causa dano e lentidão massiva a inimigos que a atravessam.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ThreshR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0412/ability_0412_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Ashe",
+    "titulo": "a Arqueira do Gelo",
+    "descricao": "A mãe de guerra glacinata da tribo avarosiana, Ashe comanda a horda mais populosa do norte.",
+    "frase": "Tudo em uma só flecha.",
+    "id": "ashe",
+    "historia_completa": "A mãe de guerra glacinata da tribo avarosiana, Ashe comanda a horda mais populosa do norte. Estoica, inteligente e idealista, mas desconfortável com seu papel de líder, ela utiliza os feitiços de seus ancestrais para empunhar um arco de Gelo Verdadeiro. Com a crença de seu povo de que ela é a reencarnação da heroína mítica Avarosa, Ashe espera unir Freljord mais uma vez, retomando suas antigas terras tribais.",
+    "ano": 2009,
+    "funcoes": ["Atirador", "Suporte"],
+    "regiao": "Freljord",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+    "relacionamentos": ["Tryndamere", "Sejuani", "Lissandra"],
+    "viabilidade": { "dificuldade": 4, "força": 6, "utilidade": 9, "dano": 7 },
+    "habilidades": [
+      { "nome": "Tiro Congelado (Passiva)", "descricao": "Os ataques de Ashe causam lentidão a seus alvos e aumentam o dano que ela causa a eles.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Ashe_P.png" },
+      { "nome": "Concentração (Q)", "descricao": "Ashe acumula Foco ao atacar. Com o Foco no máximo, ela pode conjurar Concentração para consumir os acúmulos, recebendo Velocidade de Ataque e transformando seu ataque básico em uma poderosa rajada de flechas.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AsheQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_Q1.webm" },
+      { "nome": "Rajada (W)", "descricao": "Ashe dispara uma rajada de flechas em um cone, causando dano e lentidão.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AsheW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_W1.webm" },
+      { "nome": "Tiro do Gavião (E)", "descricao": "Ashe envia um Espírito de Gavião em uma missão de reconhecimento para qualquer lugar do mapa, revelando a área no caminho.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AsheE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_E1.webm" },
+      { "nome": "Flecha de Cristal Encantada (R)", "descricao": "Ashe dispara uma flecha de gelo gigante que atravessa o mapa, atordoando o primeiro campeão inimigo atingido e causando dano a todos os inimigos próximos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AsheR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Katarina",
+    "titulo": "a Lâmina Sinistra",
+    "descricao": "Decisiva em seus julgamentos e letal em combate, Katarina é uma das assassinas mais renomadas de Noxus.",
+    "frase": "A violência resolve tudo.",
+    "id": "katarina",
+    "historia_completa": "Decisiva em seus julgamentos e letal em combate, Katarina é uma assassina noxiana do mais alto calibre. Como a filha mais velha do lendário General Du Couteau, ela tornou-se conhecida por seus feitos rápidos contra inimigos desavisados. Sua ambição ardente a compeliu a buscar alvos altamente guardados, mesmo com o risco de colocar seus aliados em perigo; mas não importa a missão, Katarina não hesitará em executar seu dever em meio a um turbilhão de adagas serrilhadas.",
+    "ano": 2009,
+    "funcoes": ["Mid", "Assassino"],
+    "regiao": "Noxus",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg",
+    "relacionamentos": ["Garen", "Talon", "Cassiopeia"],
+    "viabilidade": { "dificuldade": 8, "força": 8, "utilidade": 2, "dano": 9 },
+    "habilidades": [
+      { "nome": "Ímpeto (Passiva)", "descricao": "Os Tempos de Recarga das habilidades de Katarina são drasticamente reduzidos sempre que um campeão inimigo que ela tenha causado dano recentemente morre.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Katarina_P.png" },
+      { "nome": "Lâmina Saltitante (Q)", "descricao": "Katarina arremessa uma adaga que ricocheteia entre inimigos antes de cair no chão.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KatarinaQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0055/ability_0055_Q1.webm" },
+      { "nome": "Preparação (W)", "descricao": "Katarina joga uma adaga para o alto e recebe um breve aumento de Velocidade de Movimento.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KatarinaW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0055/ability_0055_W1.webm" },
+      { "nome": "Shunpo (E)", "descricao": "Katarina teleporta-se para um alvo, preparando-se para atacar. Se o alvo for um inimigo, ela causa dano. Caso contrário, ela ataca o inimigo mais próximo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KatarinaE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0055/ability_0055_E1.webm" },
+      { "nome": "Lótus da Morte (R)", "descricao": "Katarina torna-se um turbilhão de lâminas, arremessando adagas em alta velocidade nos três campeões inimigos mais próximos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KatarinaR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0055/ability_0055_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Darius",
+    "titulo": "a Mão de Noxus",
+    "descricao": "O líder mais temido e experiente em batalhas de Noxus, Darius comanda a legião Trifariana.",
+    "frase": "Só os fortes sobrevivem.",
+    "id": "darius",
+    "historia_completa": "Não há símbolo maior do poder de Noxus do que Darius, o líder mais temido e experiente em batalhas da nação. Órfão desde jovem, Darius teve que lutar para manter a si e a seu irmão mais novo vivos. Quando se juntou ao exército, ele já havia desenvolvido a força e a disciplina de um soldado veterano. A primeira prova verdadeira da determinação de Darius veio em uma batalha crucial contra Demacia, onde ele decapitou um general noxiano covarde. Com o apoio dos soldados, Darius liderou a tropa à vitória, e desde então dedica sua vida a construir um Noxus forte e unido.",
+    "ano": 2012,
+    "funcoes": ["Top", "Lutador"],
+    "regiao": "Noxus",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+    "relacionamentos": ["Draven", "Garen", "Swain"],
+    "viabilidade": { "dificuldade": 3, "força": 8, "utilidade": 1, "dano": 8 },
+    "habilidades": [
+      { "nome": "Hemorragia (Passiva)", "descricao": "Os ataques e habilidades de dano de Darius fazem com que os inimigos sangrem, causando Dano Físico ao longo do tempo. O efeito acumula até cinco vezes.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Darius_Icon_Hemorrhage.png" },
+      { "nome": "Dizimar (Q)", "descricao": "Darius gira seu machado em um amplo círculo. Inimigos atingidos pela lâmina recebem mais dano do que os atingidos pelo cabo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/DariusQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_Q1.webm" },
+      { "nome": "Ataque Mutilador (W)", "descricao": "O próximo ataque de Darius atinge uma artéria crucial do inimigo, causando lentidão e dano adicional.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/DariusW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_W1.webm" },
+      { "nome": "Apreender (E)", "descricao": "Darius afia seu machado, fazendo com que seus ataques ignorem um percentual da Armadura do alvo. Ao ativar, ele puxa todos os inimigos à sua frente.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/DariusE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_E1.webm" },
+      { "nome": "Guilhotina de Noxus (R)", "descricao": "Darius salta em um campeão inimigo e o ataca com um golpe letal, causando Dano Verdadeiro. O dano aumenta para cada acúmulo de Hemorragia no alvo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/DariusR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Leona",
+    "titulo": "a Alvorada Radiante",
+    "descricao": "Imbuída com o fogo do sol, Leona é uma guerreira sagrada dos Solari que defende o Monte Targon.",
+    "frase": "O sol sempre nasce.",
+    "id": "leona",
+    "historia_completa": "Imbuída com o fogo do sol, Leona é uma guerreira sagrada dos Solari que defende o Monte Targon com sua Lâmina Zênite e o Escudo da Alvorada. Sua pele brilha com fogo solar e seus olhos queimam com o poder do Aspecto celestial que a habita. Leona concede sua bênção àqueles que a ajudam e traz a destruição àqueles que a desafiam. Ela vive para proteger seu povo e anseia pelo dia em que sua amiga de infância, Diana, retorne à luz.",
+    "ano": 2011,
+    "funcoes": ["Suporte"],
+    "regiao": "Targon",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg",
+    "relacionamentos": ["Diana", "Pantheon", "Aurelion Sol"],
+    "viabilidade": { "dificuldade": 4, "força": 5, "utilidade": 9, "dano": 4 },
+    "habilidades": [
+      { "nome": "Luz do Sol (Passiva)", "descricao": "Habilidades de Leona marcam os inimigos com Luz do Sol. Campeões aliados que atacam esses inimigos consomem a marca para causar Dano Mágico adicional.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Leona_Passive.png" },
+      { "nome": "Proteção da Aurora (Q)", "descricao": "Leona usa seu escudo para realizar seu próximo ataque básico, causando Dano Mágico e atordoando o alvo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LeonaShieldOfDaybreak.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_Q1.webm" },
+      { "nome": "Eclipse (W)", "descricao": "Leona ergue seu escudo, recebendo Armadura e Resistência Mágica. Quando a duração termina, se houver inimigos próximos, ela causa Dano Mágico a eles.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LeonaSolarBarrier.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_W1.webm" },
+      { "nome": "Lâmina Zênite (E)", "descricao": "Leona projeta uma imagem solar de sua espada, causando Dano Mágico a todos os inimigos em uma linha. Quando a imagem desaparece, o último campeão inimigo atingido fica brevemente imobilizado e Leona avança em sua direção.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LeonaZenithBlade.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_E1.webm" },
+      { "nome": "Labareda Solar (R)", "descricao": "Leona invoca um raio de energia solar, causando dano e lentidão a inimigos. Inimigos no centro da área são atordoados em vez de sofrerem lentidão.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LeonaSolarFlare.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Diana",
+    "titulo": "o Escárnio da Lua",
+    "descricao": "Empunhando sua espada lunar crescente, Diana luta como uma guerreira dos Lunari.",
+    "frase": "A noite será nossa.",
+    "id": "diana",
+    "historia_completa": "Empunhando sua espada lunar crescente, Diana luta como uma guerreira dos Lunari, uma fé que é quase esquecida nas terras ao redor do Monte Targon. Vestida com uma armadura brilhante da cor da neve de inverno, ela é a personificação do poder da lua prateada. Imbuída com a essência de um Aspecto de além do pico de Targon, Diana não é mais totalmente humana e luta para entender seu poder e propósito neste mundo.",
+    "ano": 2012,
+    "funcoes": ["Jungle", "Mid", "Assassino"],
+    "regiao": "Targon",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg",
+    "relacionamentos": ["Leona", "Pantheon", "Zoe"],
+    "viabilidade": { "dificuldade": 5, "força": 8, "utilidade": 4, "dano": 8 },
+    "habilidades": [
+      { "nome": "Espada de Prata Lunar (Passiva)", "descricao": "A cada terceiro ataque, Diana golpeia inimigos próximos, causando Dano Mágico adicional.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Diana_Passive_Lunar_Rush.png" },
+      { "nome": "Golpe Crescente (Q)", "descricao": "Diana libera um raio de energia lunar em um arco, causando dano e afligindo os inimigos com Luz do Luar.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/DianaQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_Q1.webm" },
+      { "nome": "Cascata Lívida (W)", "descricao": "Diana cria três esferas orbitantes que explodem ao contato com inimigos, concedendo a ela um escudo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/DianaW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_W1.webm" },
+      { "nome": "Zênite Lunar (E)", "descricao": "Diana avança em direção a um inimigo, causando dano e lentidão.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/DianaE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_E1.webm" },
+      { "nome": "Colapso Minguante (R)", "descricao": "Diana atrai e causa lentidão a todos os inimigos próximos. Se ela puxar um ou mais campeões, ela invoca um raio de luar que causa dano massivo na área.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/DianaR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Sett",
+    "titulo": "o Chefe",
+    "descricao": "Líder do crescente submundo do crime de Ionia, Sett ganhou notoriedade após a guerra com Noxus.",
+    "frase": "Eu sou o rei do pedaço.",
+    "id": "sett",
+    "historia_completa": "Um líder do crescente submundo do crime de Ionia, Sett ganhou notoriedade após a guerra com Noxus. Embora tenha começado como um humilde desafiante nas arenas de luta de Navori, ele rapidamente ganhou fama por sua força selvagem e sua capacidade de aguentar punições inacreditáveis. Depois de lutar para chegar ao topo, Sett agora comanda a arena onde antes competia, reinando com punhos de ferro.",
+    "ano": 2020,
+    "funcoes": ["Top", "Lutador"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg",
+    "relacionamentos": ["Ahri", "Draven"],
+    "viabilidade": { "dificuldade": 4, "força": 8, "utilidade": 5, "dano": 7 },
+    "habilidades": [
+      { "nome": "Punição da Arena (Passiva)", "descricao": "Os ataques básicos de Sett se alternam entre um Soco de Esquerda e um Soco de Direita. O Soco de Direita é mais forte e mais rápido.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Sett_P.png" },
+      { "nome": "Pancadaria (Q)", "descricao": "Sett recebe Velocidade de Movimento em direção a campeões inimigos e seus próximos dois ataques causam dano adicional.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SettQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0875/ability_0875_Q1.webm" },
+      { "nome": "Casca-Grossa (W)", "descricao": "Sett armazena o dano sofrido como 'Moral'. Ao conjurar, ele gasta toda a Moral para receber um escudo e socar uma área, causando Dano Verdadeiro no centro.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SettW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0875/ability_0875_W1.webm" },
+      { "nome": "Quebra-Crânio (E)", "descricao": "Sett puxa os inimigos de ambos os lados, causando dano e lentidão. Se ele pegar pelo menos um inimigo de cada lado, todos são atordoados.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SettE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0875/ability_0875_E1.webm" },
+      { "nome": "O Grande Espetáculo (R)", "descricao": "Sett agarra um campeão inimigo e o arremessa para frente, causando dano e lentidão a todos os inimigos próximos ao ponto de impacto.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SettR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0875/ability_0875_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Yone",
+    "titulo": "o Inesquecido",
+    "descricao": "Em vida, ele foi Yone, meio-irmão de Yasuo. Mas, ao morrer, ele foi caçado por um azakana e forçado a matá-lo com sua própria espada.",
+    "frase": "Uma máscara para esconder as cicatrizes. Outra para encarar o inimigo.",
+    "id": "yone",
+    "historia_completa": "Em vida, ele foi Yone, meio-irmão de Yasuo e um respeitado aluno da escola de espadachins de sua aldeia. Mas, ao morrer pelas mãos de seu irmão, ele se viu assombrado no reino espiritual por uma entidade malévola. Forçado a lutar, ele matou a criatura com sua própria espada, mas foi condenado a usar a máscara da entidade em seu rosto. Agora, Yone caça outras criaturas semelhantes para entender o que ele se tornou.",
+    "ano": 2020,
+    "funcoes": ["Top", "Mid", "Assassino"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg",
+    "relacionamentos": ["Yasuo", "Lillia"],
+    "viabilidade": { "dificuldade": 8, "força": 8, "utilidade": 4, "dano": 9 },
+    "habilidades": [
+      { "nome": "Estilo do Caçador (Passiva)", "descricao": "Yone usa duas lâminas, fazendo com que cada segundo ataque cause mais Dano Mágico. Sua Chance de Acerto Crítico também é dobrada.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/YoneP.png" },
+      { "nome": "Aço Mortal (Q)", "descricao": "Yone avança, causando dano aos oponentes. Ao contato, ele recebe um acúmulo. Com dois acúmulos, Yone pode avançar com uma onda de vento que arremessa os inimigos ao ar.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/YoneQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0777/ability_0777_Q1.webm" },
+      { "nome": "Fenda Espiritual (W)", "descricao": "Yone avança, causando dano em um cone e recebendo um escudo. A força do escudo aumenta com o número de campeões atingidos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/YoneW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0777/ability_0777_W1.webm" },
+      { "nome": "Desatar da Alma (E)", "descricao": "O espírito de Yone deixa seu corpo para trás, recebendo Velocidade de Movimento. Quando a habilidade termina, o espírito de Yone retorna ao seu corpo e ele causa um percentual de todo o dano que causou enquanto estava na forma de espírito.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/YoneE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0777/ability_0777_E1.webm" },
+      { "nome": "Destino Selado (R)", "descricao": "Yone ataca todos os inimigos em seu caminho, aparecendo atrás do último inimigo atingido e puxando todos em sua direção.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/YoneR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0777/ability_0777_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Sylas",
+    "titulo": "o Abjugado",
+    "descricao": "Sylas de Dregbourne se tornou o símbolo da face mais sombria de Demacia, usando a magia de seus inimigos contra eles mesmos.",
+    "frase": "Não mais em correntes!",
+    "id": "sylas",
+    "historia_completa": "Criado em um dos bairros mais pobres de Demacia, Sylas de Dregbourne se tornou o símbolo da face mais sombria do Grande Reino. Quando criança, sua habilidade de sentir magias ocultas atraiu a atenção dos infames caçadores de magos, que o aprisionaram e exploraram seu poder. Após escapar, Sylas agora vive como um revolucionário endurecido, usando a magia daqueles ao seu redor para destruir o reino que o aprisionou. E sua missão não terminará até que Demacia seja reduzida a ruínas.",
+    "ano": 2019,
+    "funcoes": ["Mid", "Mago"],
+    "regiao": "Demacia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sylas_0.jpg",
+    "relacionamentos": ["Lux", "Garen", "Jarvan IV"],
+    "viabilidade": { "dificuldade": 7, "força": 7, "utilidade": 6, "dano": 8 },
+    "habilidades": [
+      { "nome": "Explosão de Petricita (Passiva)", "descricao": "Após conjurar uma habilidade, o próximo ataque básico de Sylas gira suas correntes ao seu redor, causando dano a inimigos próximos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/SylasP.png" },
+      { "nome": "Ataque de Correntes (Q)", "descricao": "Sylas chicoteia com suas correntes, causando dano e lentidão. Após um breve momento, a intersecção das correntes explode, causando mais dano.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SylasQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0517/ability_0517_Q1.webm" },
+      { "nome": "Regicida (W)", "descricao": "Sylas avança em um inimigo com um golpe mágico, causando dano e se curando. O dano e a cura aumentam se o alvo estiver com pouca Vida.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SylasW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0517/ability_0517_W1.webm" },
+      { "nome": "Abdução / Evasão (E)", "descricao": "Sylas avança uma curta distância e recebe um escudo. Ele pode reconjurar a habilidade para lançar suas correntes, atordoando e se puxando em direção ao primeiro inimigo atingido.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SylasE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0517/ability_0517_E1.webm" },
+      { "nome": "Usurpar (R)", "descricao": "Sylas rouba a ultimate de um inimigo para seu próprio uso.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SylasR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0517/ability_0517_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Kayn",
+    "titulo": "o Ceifador das Sombras",
+    "descricao": "Um praticante inigualável de magia sombria, Kayn luta para alcançar seu verdadeiro destino: um dia liderar a Ordem das Sombras.",
+    "frase": "Você será meu teste final.",
+    "id": "kayn",
+    "historia_completa": "Um praticante inigualável de magia sombria, Shieda Kayn luta para alcançar seu verdadeiro destino: um dia liderar a Ordem das Sombras rumo a uma nova era de supremacia ioniana. Ele empunha a arma darkin senciente, Rhaast, indiferente à sua corrupção gradual. Só pode haver dois resultados: ou Kayn subjuga a arma à sua vontade, ou a lâmina malévola o consome completamente, abrindo caminho para a destruição de toda Runeterra.",
+    "ano": 2017,
+    "funcoes": ["Jungle", "Assassino"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_0.jpg",
+    "relacionamentos": ["Zed", "Aatrox", "Varus"],
+    "viabilidade": { "dificuldade": 7, "força": 8, "utilidade": 4, "dano": 9 },
+    "habilidades": [
+      { "nome": "A Foice Darkin (Passiva)", "descricao": "Kayn empunha uma arma ancestral e luta contra Rhaast, o darkin que vive nela, pelo controle. Um prevalecerá. Kayn se aprimora caçando oponentes de longo alcance, enquanto Rhaast se alimenta de oponentes corpo a corpo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Kayn_Passive_Darkin.png" },
+      { "nome": "Corte Ceifador (Q)", "descricao": "Kayn avança e, em seguida, ataca. Ambas as ações causam dano.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KaynQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0141/ability_0141_Q1.webm" },
+      { "nome": "Alcance da Lâmina (W)", "descricao": "Kayn causa dano em uma linha e aplica forte redução de velocidade a todos os inimigos atingidos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KaynW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0141/ability_0141_W1.webm" },
+      { "nome": "Passada da Sombra (E)", "descricao": "Kayn pode atravessar terrenos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KaynE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0141/ability_0141_E1.webm" },
+      { "nome": "Transgressão Umbral (R)", "descricao": "Kayn infesta um inimigo, tornando-se inalvejável. Ao sair, ele causa uma explosão de dano.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KaynR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0141/ability_0141_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Riven",
+    "titulo": "a Exilada",
+    "descricao": "Outrora mestra de espada nos exércitos de Noxus, Riven agora é uma exilada em sua terra adotiva, buscando redenção.",
+    "frase": "O que está quebrado pode ser reforjado.",
+    "id": "riven",
+    "historia_completa": "Outrora mestra de espada nos exércitos de Noxus, Riven é uma expatriada em uma terra que um dia ela tentou conquistar. Ela subiu na vida através da força de sua convicção e de sua brutal eficiência, e foi recompensada com uma espada rúnica e um exército para chamar de seu. No entanto, em Ionia, a fé de Riven em sua nação foi testada e, por fim, quebrada. Tendo rompido todos os laços com o império, ela agora busca encontrar seu lugar em um mundo despedaçado, mesmo quando rumores dizem que Noxus foi reforjada.",
+    "ano": 2011,
+    "funcoes": ["Top", "Lutador"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg",
+    "relacionamentos": ["Yasuo", "Swain", "Darius"],
+    "viabilidade": { "dificuldade": 9, "força": 7, "utilidade": 5, "dano": 8 },
+    "habilidades": [
+      { "nome": "Lâmina Rúnica (Passiva)", "descricao": "As habilidades de Riven carregam sua lâmina. Seus ataques básicos consomem os acúmulos para causar dano adicional.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Riven_Passive.png" },
+      { "nome": "Asas Quebradas (Q)", "descricao": "Riven ataca em uma série de até três golpes. O terceiro golpe arremessa ao ar os inimigos próximos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/RivenQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0092/ability_0092_Q1.webm" },
+      { "nome": "Explosão de Ki (W)", "descricao": "Riven emite uma explosão de energia rúnica que atordoa os inimigos próximos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/RivenW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0092/ability_0092_W1.webm" },
+      { "nome": "Valentia (E)", "descricao": "Riven avança uma curta distância e recebe um escudo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/RivenE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0092/ability_0092_E1.webm" },
+      { "nome": "Lâmina do Exílio (R)", "descricao": "Riven fortalece sua arma com energia, recebendo Dano de Ataque e alcance. Durante este período, ela pode usar Corte de Vento, um poderoso ataque à distância.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/RivenR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0092/ability_0092_R1.webm" }
+    ]
+  }
+,
+  {
+    "nome": "Akali",
+    "titulo": "a Assassina Renegada",
+    "descricao": "Abandonando a Ordem Kinkou, Akali agora ataca sozinha, usando suas armas e disciplina para defender Ionia.",
+    "frase": "Ande nas sombras. Acerte no escuro.",
+    "id": "akali",
+    "historia_completa": "Abandonando a Ordem Kinkou e seu título de Punho das Sombras, Akali agora ataca sozinha, pronta para ser a arma mortal que seu povo precisa. Embora ela mantenha tudo o que aprendeu com seu mestre Shen, ela se comprometeu a defender Ionia de seus inimigos, um assassinato de cada vez. Akali pode atacar em silêncio, mas sua mensagem será ouvida em alto e bom som: tema a assassina sem mestre.",
+    "ano": 2010,
+    "funcoes": ["Assassino", "Mid", "Top"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+    "relacionamentos": ["Shen", "Kennen", "Zed"],
+    "viabilidade": { "dificuldade": 8, "força": 8, "utilidade": 4, "dano": 9 },
+    "habilidades": [
+      { "nome": "Marca do Assassino (Passiva)", "descricao": "Causar dano com uma habilidade cria um anel de energia ao redor do alvo. Sair do anel fortalece o próximo ataque de Akali com alcance e dano adicionais.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Akali_P.png" },
+      { "nome": "Golpe dos Cinco Pontos (Q)", "descricao": "Akali arremessa cinco kunais, causando dano e lentidão a inimigos à sua frente.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AkaliQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0084/ability_0084_Q1.webm" },
+      { "nome": "Proteção do Crepúsculo (W)", "descricao": "Akali cria uma nuvem de fumaça que a torna invisível e concede Velocidade de Movimento.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AkaliW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0084/ability_0084_W1.webm" },
+      { "nome": "Investida Shuriken (E)", "descricao": "Akali recua e arremessa uma shuriken, que marca o primeiro inimigo ou nuvem de fumaça atingida. Reconjurar a habilidade faz Akali avançar até o alvo marcado.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AkaliE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0084/ability_0084_E1.webm" },
+      { "nome": "Execução Perfeita (R)", "descricao": "Akali avança até duas vezes, causando dano aos inimigos que atravessa. O segundo avanço executa, causando dano com base na Vida perdida do alvo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AkaliR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0084/ability_0084_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Irelia",
+    "titulo": "a Dançarina das Lâminas",
+    "descricao": "A defensora feroz de Ionia, Irelia usa sua dança mortal para controlar um arsenal de lâminas levitantes.",
+    "frase": "Lutarei pela Primeira Terra.",
+    "id": "irelia",
+    "historia_completa": "A ocupação noxiana de Ionia produziu muitos heróis, mas nenhum mais improvável do que a jovem Irelia de Navori. Treinada nas antigas danças de sua província, ela adaptou sua arte para a guerra, usando os movimentos graciosos e cuidadosamente praticados para levitar uma série de lâminas mortais. Depois de se provar uma lutadora e líder, ela foi alçada ao papel de figura de proa e líder da resistência, e até hoje se dedica a preservar sua terra natal.",
+    "ano": 2010,
+    "funcoes": ["Top", "Lutador"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg",
+    "relacionamentos": ["Swain", "Karma", "Yasuo"],
+    "viabilidade": { "dificuldade": 7, "força": 8, "utilidade": 6, "dano": 8 },
+    "habilidades": [
+      { "nome": "Fervor Ioniano (Passiva)", "descricao": "Ao atingir inimigos com habilidades, Irelia ganha acúmulos de Velocidade de Ataque. No máximo de acúmulos, ela também ganha dano adicional ao contato.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Irelia_P.png" },
+      { "nome": "Surto da Lâmina (Q)", "descricao": "Irelia avança para atacar seu alvo. Se o alvo for abatido ou estiver marcado, o Tempo de Recarga da habilidade é zerado.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/IreliaQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0039/ability_0039_Q1.webm" },
+      { "nome": "Dança Desafiadora (W)", "descricao": "Irelia carrega um golpe que causa dano e reduz significativamente o dano físico que ela sofre.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/IreliaW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0039/ability_0039_W1.webm" },
+      { "nome": "Dueto Impecável (E)", "descricao": "Irelia envia duas lâminas que convergem uma na outra. Inimigos pegos no meio são atordoados e marcados.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/IreliaE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0039/ability_0039_E1.webm" },
+      { "nome": "Lâmina da Vanguarda (R)", "descricao": "Irelia dispara uma tempestade de lâminas que explodem para fora ao atingir um campeão inimigo. As lâminas causam dano e marcam os inimigos, além de formar uma parede que causa dano e lentidão a quem a atravessa.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/IreliaR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0039/ability_0039_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Shen",
+    "titulo": "o Olho do Crepúsculo",
+    "descricao": "Líder do clã Kinkou, Shen zela pelo equilíbrio entre o mundo espiritual e o físico.",
+    "frase": "Um julgamento ponderado.",
+    "id": "shen",
+    "historia_completa": "Como o Olho do Crepúsculo, Shen é o líder do misterioso clã Kinkou. Ele busca manter o equilíbrio entre o mundo espiritual e o mundo físico, percorrendo um caminho de julgamento imparcial. Empunhando sua lâmina espiritual, ele pode se teleportar através dos reinos, aparecendo para defender o equilíbrio com sua vida.",
+    "ano": 2010,
+    "funcoes": ["Top", "Tanque"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg",
+    "relacionamentos": ["Akali", "Kennen", "Zed"],
+    "viabilidade": { "dificuldade": 5, "força": 6, "utilidade": 10, "dano": 5 },
+    "habilidades": [
+      { "nome": "Barreira de Ki (Passiva)", "descricao": "Após conjurar uma habilidade, Shen recebe um escudo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Shen_P.png" },
+      { "nome": "Ataque Crepúsculo (Q)", "descricao": "Shen chama sua lâmina espiritual, fortalecendo seus próximos três ataques para causar dano com base na Vida máxima do alvo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ShenQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0098/ability_0098_Q1.webm" },
+      { "nome": "Refúgio Espiritual (W)", "descricao": "Cria uma área protetora ao redor da lâmina espiritual de Shen, bloqueando ataques básicos contra aliados.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ShenW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0098/ability_0098_W1.webm" },
+      { "nome": "Corrida das Sombras (E)", "descricao": "Shen avança, provocando os inimigos que atravessa.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ShenE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0098/ability_0098_E1.webm" },
+      { "nome": "Manter a União (R)", "descricao": "Shen concede um escudo a um campeão aliado e, após canalizar, se teleporta para a localização dele.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/ShenR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0098/ability_0098_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Lucian",
+    "titulo": "o Purificador",
+    "descricao": "Um Sentinela da Luz, Lucian é um caçador implacável de espíritos mortos-vivos.",
+    "frase": "Todos morrem. Eu apenas apresso o inevitável.",
+    "id": "lucian",
+    "historia_completa": "Lucian, um Sentinela da Luz, é um caçador implacável de espíritos mortos-vivos, perseguindo-os com suas pistolas de relíquia. Após o espectro Thresh matar sua esposa, Senna, Lucian embarcou em um caminho de vingança. Mas mesmo com o retorno de Senna à vida, sua raiva não diminuiu. Impiedoso e obstinado, Lucian não para por nada para proteger os vivos do horror da Névoa Negra.",
+    "ano": 2013,
+    "funcoes": ["Atirador"],
+    "regiao": "Demacia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_0.jpg",
+    "relacionamentos": ["Senna", "Thresh", "Viego"],
+    "viabilidade": { "dificuldade": 6, "força": 8, "utilidade": 3, "dano": 9 },
+    "habilidades": [
+      { "nome": "Disparo Iluminado (Passiva)", "descricao": "Sempre que Lucian usa uma habilidade, seu próximo ataque básico é um disparo duplo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Lucian_P.png" },
+      { "nome": "Luz Perfurante (Q)", "descricao": "Lucian dispara um raio de luz perfurante através de um alvo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LucianQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0236/ability_0236_Q1.webm" },
+      { "nome": "Chama Ardente (W)", "descricao": "Lucian dispara um projétil que explode em forma de estrela, marcando inimigos. Atacar inimigos marcados concede Velocidade de Movimento a Lucian.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LucianW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0236/ability_0236_W1.webm" },
+      { "nome": "Perseguição Implacável (E)", "descricao": "Lucian avança uma curta distância. O Tempo de Recarga é reduzido cada vez que Disparo Iluminado atinge um inimigo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LucianE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0236/ability_0236_E1.webm" },
+      { "nome": "O Expurgo (R)", "descricao": "Lucian dispara uma torrente de tiros de suas pistolas.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LucianR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0236/ability_0236_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Senna",
+    "titulo": "a Redentora",
+    "descricao": "Amaldiçoada desde a infância a ser assombrada pela Névoa Negra, Senna se juntou aos Sentinelas da Luz e luta contra a escuridão.",
+    "frase": "Ninguém luta sozinho na névoa.",
+    "id": "senna",
+    "historia_completa": "Amaldiçoada desde a infância a ser assombrada pela Névoa Negra, Senna se juntou à ordem sagrada dos Sentinelas da Luz e lutou ferozmente contra ela. Mas seu marido, Lucian, testemunhou sua morte nas mãos do sádico espectro Thresh. Aprisionada em sua lanterna, Senna se recusou a perder a esperança. Ela aprendeu a usar a Névoa a seu favor, ressurgindo com um novo propósito: lutar contra a escuridão com a própria escuridão.",
+    "ano": 2019,
+    "funcoes": ["Suporte", "Atirador"],
+    "regiao": "Ilhas das Sombras",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg",
+    "relacionamentos": ["Lucian", "Thresh", "Viego"],
+    "viabilidade": { "dificuldade": 5, "força": 7, "utilidade": 9, "dano": 7 },
+    "habilidades": [
+      { "nome": "Absolvição (Passiva)", "descricao": "Senna pode atacar almas que surgem de inimigos mortos para absorver sua névoa. Cada acúmulo de névoa concede Dano de Ataque, Alcance de Ataque e Chance de Acerto Crítico.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Senna_P.png" },
+      { "nome": "Escuridão Perfurante (Q)", "descricao": "Senna dispara um raio que cura aliados e causa dano a inimigos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SennaQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0235/ability_0235_Q1.webm" },
+      { "nome": "Abraço Final (W)", "descricao": "Senna comanda a Névoa, enraizando o primeiro inimigo atingido após um breve intervalo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SennaW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0235/ability_0235_W1.webm" },
+      { "nome": "Maldição da Névoa Negra (E)", "descricao": "Senna se dissolve em uma nuvem de névoa, ganhando Velocidade de Movimento e camuflando a si mesma e a aliados próximos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SennaE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0235/ability_0235_E1.webm" },
+      { "nome": "Sombra da Alvorada (R)", "descricao": "Senna dispara um raio global que concede escudo a aliados e causa dano a inimigos no centro.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SennaR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0235/ability_0235_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Ezreal",
+    "titulo": "o Explorador Pródigo",
+    "descricao": "Um aventureiro arrojado, Ezreal explora os locais mais remotos de Runeterra.",
+    "frase": "Lugar de museu é no meu braço!",
+    "id": "ezreal",
+    "historia_completa": "Um aventureiro arrojado com um talento para a magia, Ezreal explora os locais mais remotos e esquecidos de Runeterra. Com sua manopla mágica, ele dispara rajadas de energia arcana enquanto desvenda os segredos de civilizações antigas. Sua coragem e ousadia não conhecem limites, e ele prefere improvisar em qualquer situação, confiando em seu intelecto e, claro, em sua manopla mística.",
+    "ano": 2010,
+    "funcoes": ["Atirador", "Mago"],
+    "regiao": "Piltover",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
+    "relacionamentos": ["Lux", "Zoe", "Kassadin"],
+    "viabilidade": { "dificuldade": 7, "força": 8, "utilidade": 4, "dano": 9 },
+    "habilidades": [
+      { "nome": "Força do Feitiço Crescente (Passiva)", "descricao": "Atingir um alvo com qualquer uma das habilidades de Ezreal aumenta sua Velocidade de Ataque, acumulando até 5 vezes.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Ezreal_P.png" },
+      { "nome": "Disparo Místico (Q)", "descricao": "Ezreal dispara um raio de energia que reduz todos os seus Tempos de Recarga se atingir uma unidade inimiga.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/EzrealQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_Q1.webm" },
+      { "nome": "Fluxo Essencial (W)", "descricao": "Ezreal dispara um orbe que se prende a um campeão ou objetivo. Atingir o orbe com uma habilidade ou ataque o detona, causando dano.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/EzrealW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_W1.webm" },
+      { "nome": "Translocação Arcana (E)", "descricao": "Ezreal se teleporta para um local próximo e dispara um raio teleguiado no inimigo mais próximo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/EzrealE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_E1.webm" },
+      { "nome": "Barragem Incendiária (R)", "descricao": "Ezreal canaliza para disparar uma poderosa barragem de energia que causa dano massivo a cada unidade que atravessa.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/EzrealR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Miss Fortune",
+    "titulo": "a Caçadora de Recompensas",
+    "descricao": "Uma capitã pirata de Águas de Sentina, famosa por sua beleza e impiedade.",
+    "frase": "A sorte não sorri para os tolos.",
+    "id": "missfortune",
+    "historia_completa": "Uma capitã pirata de Águas de Sentina, famosa por sua beleza mas temida por sua impiedade, Sarah Fortune é uma figura de autoridade na cidade portuária. Quando criança, ela testemunhou o assassinato de sua família pelo rei pirata Gangplank. Anos depois, ela se vingou brutalmente, explodindo seu navio. Aqueles que a subestimam se deparam com uma oponente astuta e imprevisível.",
+    "ano": 2010,
+    "funcoes": ["Atirador"],
+    "regiao": "Águas de Sentina",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MissFortune_0.jpg",
+    "relacionamentos": ["Gangplank", "Twisted Fate", "Graves"],
+    "viabilidade": { "dificuldade": 3, "força": 8, "utilidade": 3, "dano": 9 },
+    "habilidades": [
+      { "nome": "Batida do Amor (Passiva)", "descricao": "Miss Fortune causa Dano Físico adicional sempre que ataca um novo alvo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/MissFortune_W.png" },
+      { "nome": "Dois por Um (Q)", "descricao": "Miss Fortune dispara uma bala em um inimigo, que ricocheteia e atinge um segundo alvo atrás do primeiro.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/MissFortuneQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0021/ability_0021_Q1.webm" },
+      { "nome": "Desfilando (W)", "descricao": "Passivamente, Miss Fortune ganha Velocidade de Movimento ao não sofrer dano. A habilidade pode ser ativada para conceder Velocidade de Ataque.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/MissFortuneW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0021/ability_0021_W1.webm" },
+      { "nome": "Chuva de Disparos (E)", "descricao": "Miss Fortune revela uma área e dispara uma chuva de balas, causando dano e lentidão a inimigos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/MissFortuneE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0021/ability_0021_E1.webm" },
+      { "nome": "Metendo Bala (R)", "descricao": "Miss Fortune dispara uma barragem de balas em um cone à sua frente, causando dano massivo a inimigos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/MissFortuneR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0021/ability_0021_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Pyke",
+    "titulo": "o Estripador das Águas Sangrentas",
+    "descricao": "Um arpoador afogado que retornou dos mortos, Pyke agora caça aqueles que o traíram.",
+    "frase": "Afunde todos.",
+    "id": "pyke",
+    "historia_completa": "Um renomado arpoador das docas de Águas de Sentina, Pyke deveria ter encontrado seu fim na barriga de um peixe-abissal gigante. No entanto, ele retornou. Agora, ele assombra os becos e vielas de sua antiga cidade, usando seus novos dons sobrenaturais para levar uma morte rápida e brutal àqueles que enriquecem explorando os outros. A cidade que se orgulhava de caçar monstros agora tem um monstro caçando-a.",
+    "ano": 2018,
+    "funcoes": ["Suporte", "Assassino"],
+    "regiao": "Águas de Sentina",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg",
+    "relacionamentos": ["Miss Fortune", "Gangplank", "Nautilus"],
+    "viabilidade": { "dificuldade": 8, "força": 7, "utilidade": 7, "dano": 8 },
+    "habilidades": [
+      { "nome": "Dádiva dos Afogados (Passiva)", "descricao": "Quando Pyke está fora da vista dos inimigos, ele regenera parte da Vida que perdeu recentemente para campeões inimigos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/PykeP.png" },
+      { "nome": "Espeto de Osso (Q)", "descricao": "Pyke apunhala um inimigo à sua frente ou arremessa seu arpão para puxar um inimigo em sua direção.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/PykeQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0555/ability_0555_Q1.webm" },
+      { "nome": "Mergulho Fantasma (W)", "descricao": "Pyke mergulha em águas espectrais, ficando camuflado e ganhando um grande aumento de Velocidade de Movimento.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/PykeW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0555/ability_0555_W1.webm" },
+      { "nome": "Ressaca Espectral (E)", "descricao": "Pyke avança, deixando para trás um fantasma afogado. Após um momento, o fantasma retorna a Pyke, atordoando todos os inimigos que atravessa.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/PykeE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0555/ability_0555_E1.webm" },
+      { "nome": "Morte das Profundezas (R)", "descricao": "Pyke ataca em uma área em forma de X, executando inimigos com Vida baixa e se teleportando para o local. Se um campeão morrer no X, Pyke pode reconjurar a habilidade.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/PykeR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0555/ability_0555_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Swain",
+    "titulo": "o Grande General Noxiano",
+    "descricao": "O visionário governante de Noxus, Swain comanda seus exércitos da linha de frente com uma determinação demoníaca.",
+    "frase": "Meu pássaro vê tudo.",
+    "id": "swain",
+    "historia_completa": "Jericho Swain é o visionário governante de Noxus, uma nação expansionista que reverencia apenas a força. Embora tenha sido deposto e aleijado nas guerras ionianas, ele tomou o controle do império com uma determinação implacável e uma nova mão demoníaca. Agora, Swain comanda seus exércitos da linha de frente, marchando contra uma escuridão que se aproxima e que apenas ele pode ver.",
+    "ano": 2010,
+    "funcoes": ["Mago", "Suporte"],
+    "regiao": "Noxus",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Swain_0.jpg",
+    "relacionamentos": ["Darius", "LeBlanc", "Katarina"],
+    "viabilidade": { "dificuldade": 6, "força": 7, "utilidade": 7, "dano": 7 },
+    "habilidades": [
+      { "nome": "Bando Voraz (Passiva)", "descricao": "Swain pode clicar com o botão direito em campeões inimigos imobilizados para puxá-los e arrancar um Fragmento de Alma, causando dano e curando-o.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Swain_P.png" },
+      { "nome": "Mão da Morte (Q)", "descricao": "Swain libera vários raios de poder sobrenatural que perfuram e param no primeiro inimigo atingido.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SwainQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0050/ability_0050_Q1.webm" },
+      { "nome": "Visão do Império (W)", "descricao": "Swain abre um olho demoníaco que revela e causa dano e lentidão a inimigos em uma área.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SwainW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0050/ability_0050_W1.webm" },
+      { "nome": "Nuncamova (E)", "descricao": "Swain lança uma onda de poder demoníaco que retorna a ele, enraizando os inimigos que atinge.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SwainE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0050/ability_0050_E1.webm" },
+      { "nome": "Ascensão Demoníaca (R)", "descricao": "Swain se transforma em um demônio, drenando Vida de campeões, tropas e monstros neutros próximos. Ele pode conjurar Labareda Demoníaca para causar uma explosão de energia que causa dano e lentidão massiva.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/SwainR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0050/ability_0050_R1.webm" }
+    ]
+  }
+,
+  {
+    "nome": "Aatrox",
+    "titulo": "a Espada Darkin",
+    "descricao": "Um guerreiro amaldiçoado aprisionado em sua própria espada, Aatrox busca o fim de toda a criação.",
+    "frase": "Eu não sou um rei, não sou um deus. Eu sou... pior.",
+    "id": "aatrox",
+    "historia_completa": "Outrora um nobre defensor de Shurima contra o Vazio, Aatrox e seus irmãos foram corrompidos por sua vitória. Aprisionado por séculos dentro de sua própria espada, ele foi condenado a uma existência de tormento. Agora, ele vaga por Runeterra em uma forma roubada, buscando um apocalipse que finalmente o libertará de sua prisão eterna.",
+    "ano": 2013,
+    "funcoes": ["Lutador", "Top"],
+    "regiao": "Runeterra",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
+    "relacionamentos": ["Kayn", "Varus", "Pantheon"],
+    "viabilidade": { "dificuldade": 6, "força": 8, "utilidade": 5, "dano": 8 },
+    "habilidades": [
+      { "nome": "Aniquilador de Mundos (Passiva)", "descricao": "Periodicamente, o próximo ataque básico de Aatrox causa Dano Físico adicional e o cura.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Aatrox_Passive.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0266/ability_0266_P1.webm" },
+      { "nome": "A Espada Darkin (Q)", "descricao": "Aatrox golpeia com sua espada até três vezes. Cada golpe tem uma área de efeito diferente e pode arremessar inimigos ao ar se atingidos na ponta.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AatroxQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0266/ability_0266_Q1.webm" },
+      { "nome": "Correntes Infernais (W)", "descricao": "Aatrox golpeia o chão, criando uma área que causa lentidão e puxa os inimigos para o centro se não saírem a tempo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AatroxW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0266/ability_0266_W1.webm" },
+      { "nome": "Avanço Umbral (E)", "descricao": "Passivamente, Aatrox se cura ao causar dano a campeões. Ativamente, ele avança uma curta distância.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AatroxE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0266/ability_0266_E1.webm" },
+      { "nome": "Aniquilador de Mundos (R)", "descricao": "Aatrox libera sua forma demoníaca, ganhando Dano de Ataque, cura aumentada e Velocidade de Movimento. Abates estendem a duração.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/AatroxR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0266/ability_0266_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Kennen",
+    "titulo": "o Coração da Tempestade",
+    "descricao": "Um yordle veloz e membro da Ordem Kinkou, Kennen usa shurikens e poder elétrico para subjugar seus inimigos.",
+    "frase": "O equilíbrio está em todas as coisas.",
+    "id": "kennen",
+    "historia_completa": "Como o Coração da Tempestade, Kennen é o guardião do equilíbrio em Ionia. Apesar de sua aparência fofa, ele é um yordle com uma energia ilimitada, usando sua velocidade e poder elétrico para proteger o mundo espiritual e o físico. Ao lado de Shen e Akali, ele patrulha as terras em busca de restaurar a harmonia.",
+    "ano": 2010,
+    "funcoes": ["Mago", "Top"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kennen_0.jpg",
+    "relacionamentos": ["Shen", "Akali", "Zed"],
+    "viabilidade": { "dificuldade": 5, "força": 7, "utilidade": 7, "dano": 8 },
+    "habilidades": [
+      { "nome": "Marca da Tempestade (Passiva)", "descricao": "Kennen aplica uma marca em inimigos com suas habilidades. Acumular 3 marcas atordoa o alvo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Kennen_P.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0085/ability_0085_P1.webm" },
+      { "nome": "Shuriken Trovejante (Q)", "descricao": "Kennen arremessa uma shuriken veloz em uma direção, causando dano e aplicando uma Marca da Tempestade.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KennenQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0085/ability_0085_Q1.webm" },
+      { "nome": "Tensão Elétrica (W)", "descricao": "Passivamente, o quinto ataque de Kennen causa dano adicional e aplica uma marca. Ativamente, ele causa dano a todos os inimigos próximos que já possuem uma marca.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KennenW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0085/ability_0085_W1.webm" },
+      { "nome": "Investida Relâmpago (E)", "descricao": "Kennen se transforma em uma bola de eletricidade, ganhando Velocidade de Movimento e causando dano a inimigos que atravessa.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KennenE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0085/ability_0085_E1.webm" },
+      { "nome": "Turbilhão Cortante (R)", "descricao": "Kennen invoca uma tempestade mágica que causa dano e aplica Marcas da Tempestade a todos os inimigos próximos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/KennenR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0085/ability_0085_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Varus",
+    "titulo": "a Flecha da Vingança",
+    "descricao": "Uma criatura composta por dois caçadores ionianos e um Darkin ancestral, Varus é um ser letal que busca vingança.",
+    "frase": "Cuidado com o homem que não tem nada a perder.",
+    "id": "varus",
+    "historia_completa": "Um dos Darkin ancestrais, Varus foi aprisionado no final da Grande Guerra Darkin. Séculos depois, ele escapou ao se fundir com os corpos de dois caçadores ionianos, Valmar e Kai. Agora, a criatura nascida dessa fusão busca vingança contra aqueles que o aprisionaram, mas as almas mortais dentro dele lutam constantemente contra sua influência malévola.",
+    "ano": 2012,
+    "funcoes": ["Atirador", "Mago"],
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_0.jpg",
+    "relacionamentos": ["Aatrox", "Kayn"],
+    "viabilidade": { "dificuldade": 6, "força": 7, "utilidade": 6, "dano": 8 },
+    "habilidades": [
+      { "nome": "Vingança Viva (Passiva)", "descricao": "Ao abater um inimigo, Varus ganha Velocidade de Ataque temporariamente. O bônus é maior se o inimigo for um campeão.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Varus_P.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0110/ability_0110_P1.webm" },
+      { "nome": "Flecha Perfurante (Q)", "descricao": "Varus carrega e dispara uma flecha poderosa que ganha alcance e dano extras quanto mais tempo for carregada.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/VarusQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0110/ability_0110_Q1.webm" },
+      { "nome": "Aljava da Ruína (W)", "descricao": "Passivamente, os ataques básicos de Varus causam Dano Mágico adicional e aplicam Arruinar. As outras habilidades de Varus detonam Arruinar, causando dano com base na Vida máxima do alvo.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/VarusW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0110/ability_0110_W1.webm" },
+      { "nome": "Chuva de Flechas (E)", "descricao": "Varus dispara uma chuva de flechas que causa Dano Físico e cria uma área que causa lentidão e reduz a cura dos inimigos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/VarusE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0110/ability_0110_E1.webm" },
+      { "nome": "Corrente da Corrupção (R)", "descricao": "Varus lança uma gavinha de corrupção que imobiliza o primeiro campeão inimigo atingido e depois se espalha para campeões próximos, imobilizando-os também.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/VarusR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0110/ability_0110_R1.webm" }
+    ]
+  },
+  {
+    "nome": "Pantheon",
+    "titulo": "a Lança Indestrutível",
+    "descricao": "Um guerreiro indomável que, após ser morto como um receptáculo para o Aspecto da Guerra, renasceu com poder sobre-humano.",
+    "frase": "Após a derrota, eu me reergo.",
+    "id": "pantheon",
+    "historia_completa": "O homem antes conhecido como Atreus sobreviveu à destruição de seu corpo pelo Aspecto da Guerra, tornando-se o novo Pantheon. Com sua vontade indomável, ele agora resiste ao divino, empunhando as armas do Aspecto caído para lutar contra deuses, darkins e qualquer um que possua poder suficiente para ameaçar a humanidade.",
+    "ano": 2010,
+    "funcoes": ["Lutador", "Top", "Mid"],
+    "regiao": "Targon",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pantheon_0.jpg",
+    "relacionamentos": ["Leona", "Diana", "Aatrox"],
+    "viabilidade": { "dificuldade": 5, "força": 7, "utilidade": 7, "dano": 8 },
+    "habilidades": [
+      { "nome": "Vontade Mortal (Passiva)", "descricao": "Após um certo número de ataques ou habilidades, a próxima habilidade de Pantheon é fortalecida.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/Pantheon_P.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0080/ability_0080_P1.webm" },
+      { "nome": "Lança Meteórica (Q)", "descricao": "Pantheon arremessa sua lança ou a usa para apunhalar inimigos próximos.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/PantheonQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0080/ability_0080_Q1.webm" },
+      { "nome": "Escudo-Cometa (W)", "descricao": "Pantheon avança em um alvo, causando dano e atordoando-o.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/PantheonW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0080/ability_0080_W1.webm" },
+      { "nome": "Égide Impetuosa (E)", "descricao": "Pantheon ergue seu escudo, tornando-se invulnerável a dano vindo da sua frente e causando dano com sua lança.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/PantheonE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0080/ability_0080_E1.webm" },
+      { "nome": "Constelação Cadente (R)", "descricao": "Pantheon salta para o céu e aterrissa em um local alvo como um meteoro, causando dano a inimigos em seu caminho.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/PantheonR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0080/ability_0080_R1.webm" }
+    ]
+  },
+  {
+    "nome": "LeBlanc",
+    "titulo": "a Farsante",
+    "descricao": "Uma maga misteriosa e líder da Rosa Negra, LeBlanc manipula pessoas e eventos com sua magia de ilusão.",
+    "frase": "O mundo é bem diferente para quem não consegue ver além do que é colocado diante de si.",
+    "id": "leblanc",
+    "historia_completa": "Misteriosa até para os outros membros da Rosa Negra, LeBlanc é apenas um dos muitos nomes de uma mulher pálida que tem manipulado pessoas e eventos desde os primeiros dias de Noxus. Usando sua magia para se espelhar, a feiticeira pode aparecer para qualquer um, em qualquer lugar, e até mesmo para muitos de uma vez. Sempre tramando nos bastidores, os verdadeiros motivos de LeBlanc são tão impenetráveis quanto sua verdadeira identidade.",
+    "ano": 2010,
+    "funcoes": ["Assassino", "Mago", "Mid"],
+    "regiao": "Noxus",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leblanc_0.jpg",
+    "relacionamentos": ["Swain", "Mordekaiser"],
+    "viabilidade": { "dificuldade": 9, "força": 8, "utilidade": 6, "dano": 9 },
+    "habilidades": [
+      { "nome": "Imagem-Espelho (Passiva)", "descricao": "Quando LeBlanc fica com pouca Vida, ela se torna invisível por um momento e cria uma Imagem-Espelho que não causa dano.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/passive/LeBlanc_P.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0007/ability_0007_P1.webm" },
+      { "nome": "Sigilo de Malícia (Q)", "descricao": "LeBlanc projeta um sigilo, causando dano e marcando o alvo. Atingir o alvo marcado com outra habilidade detona o sigilo, causando dano adicional.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LeblancQ.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0007/ability_0007_Q1.webm" },
+      { "nome": "Distorção (W)", "descricao": "LeBlanc avança para um local, causando dano a inimigos próximos. Ela pode reativar a habilidade para retornar ao local original.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LeblancW.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0007/ability_0007_W1.webm" },
+      { "nome": "Correntes Etéreas (E)", "descricao": "LeBlanc lança uma corrente que se prende ao primeiro inimigo atingido. Se o alvo permanecer acorrentado, ele é enraizado e sofre dano adicional.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LeblancE.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0007/ability_0007_E1.webm" },
+      { "nome": "Mímica (R)", "descricao": "LeBlanc conjura uma cópia de sua última habilidade usada, causando mais dano.", "icone": "https://ddragon.leagueoflegends.com/cdn/14.10.1/img/spell/LeblancR.png", "video": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0007/ability_0007_R1.webm" }
+    ]
+  }
+]
